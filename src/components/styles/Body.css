@@ -1,7 +1,7 @@
 
 .home-main-container{
+  height: 100%;
   width: 100vw;
-  height: 80vh;
   margin-top: 50px;
   background-image: url(/public/bg-ppal.svg);
   color: white;
@@ -11,7 +11,7 @@
   grid-template-columns: auto auto;
   place-content: center;
   gap: 30px;
-  height: 100%;
+  height: 80vh;
   font-size: 24px;
 }
 .hero-text{
@@ -51,11 +51,10 @@
   background-color: #F9D342;
   padding: 30px;
   display: flex;
-  displaydirection: column;
   gap: 0px;
   justify-content: space-between;
   width: 100%;
-  height: 570px;
+  height: 60vh;
   margin-left: 0px;
   border-radius: 0px 200px 0px 0px;
 }

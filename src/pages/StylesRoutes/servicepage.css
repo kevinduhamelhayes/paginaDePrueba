@@ -1,0 +1,33 @@
+.services{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.services-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 60px;
+  height: 120px;
+  gap: 60px;
+  width: 100%;
+  background-image: url(/public/bg-top-services.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.tittle-services{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+  color:#F9D342 ;
+}
+.p-top-services{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  width: 70%;
+}

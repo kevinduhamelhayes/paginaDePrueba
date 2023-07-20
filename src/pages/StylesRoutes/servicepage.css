@@ -31,3 +31,127 @@
   color: white;
   width: 70%;
 }
+.cards-left{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.tittle-card-left{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.p-card-left{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  width: 70%;
+  margin-top: 20px;
+}
+.btn-card-left{
+  width: 15%;
+  height: 50px;
+  background-color: #F9D342;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.cards-right{
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+}
+.card-container-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  width: 100%;
+  gap: 0px;
+}
+.tittle-card-right{
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.p-card-right{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 150px;
+  color: black;
+  text-align: right;
+  margin-bottom: 20px;
+}
+.btn-card-right{
+  position: relative;
+  left: 85%;
+  width: 15%;
+  height: 50px;
+  background-color: #F9D342;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.figure-right{
+margin-right: 60px;
+margin-top: 40px;
+}
+.tittle-grid-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #F9D342;
+    background-image: url(/public/br-bottom-services.svg);
+}
+.cards-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: black;
+  padding: 60px 60px;
+  gap: 50px;
+}
+.column1, .column2, .column3 {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: white;
+}
+.h1-grid{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+.text-grid-card{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}

@@ -20,7 +20,7 @@ export default function Footer({ theme }) {
                 className={`footer-li ${
                   page.path === pathname ? "footer-li-active" : ""
                 }`}
-                key={page.name}
+                key={page.path}
               >
                 <Link to={page.path}>{page.name}</Link>
               </li>

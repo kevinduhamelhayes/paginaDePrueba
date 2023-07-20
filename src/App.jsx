@@ -28,9 +28,10 @@ const App = () => {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/consultation" element={<ConsultationPage />} />
-        </Routes>
+        </Routes>    
+        <Footer theme={theme} />
+
       </BrowserRouter>
-      <Footer theme={theme} />
     </div>
   )
 }

@@ -1,16 +1,30 @@
 import "./styles/Footer.css"
+import { Link, useLocation } from "react-router-dom"
+const pages = [
+  { name: "Home", path: "/" },
+  { name: "Services", path: "/services" },
+  { name: "Consultation", path: "/consultation" },
+  { name: "Contact", path: "/contact" },
+  { name: "About", path: "/about" },
+]
 
 export default function Footer({ theme }) {
+  const { pathname } = useLocation()
   return (
     <nav className="footer">
       <div className="footer-container">
         <div className="footer-top">
           <ul className="footer-ul">
-            <li className="footer-li">home</li>
-            <li className="footer-li">services</li>
-            <li className="footer-li">consultation</li>
-            <li className="footer-li">contact</li>
-            <li className="footer-li">about</li>
+            {pages.map((page) => (
+              <li
+                className={`footer-li ${
+                  page.path === pathname ? "footer-li-active" : ""
+                }`}
+                key={page.name}
+              >
+                <Link to={page.path}>{page.name}</Link>
+              </li>
+            ))}
           </ul>
           <h2 className="footer-address">Address</h2>
           <p className="footer-address-p">

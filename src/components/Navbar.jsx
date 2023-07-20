@@ -1,6 +1,5 @@
 import "./styles/Navbar.css"
 import { Link, useLocation } from "react-router-dom"
-import { useState } from "react"
 const pages = [
   { name: "Home", path: "/" },
   { name: "Services", path: "/services" },
@@ -10,7 +9,6 @@ const pages = [
 ]
 export default function Navbar({ theme }) {
   const { pathname } = useLocation()
-  console.log(pathname)
   return (
     <nav className="navbar">
       <div className="navbar-left">

@@ -1,5 +1,6 @@
+import "./StylesRoutes/consultationpage.css"
 const ConsultationPage = () => {
-  return <div>ConsultationPage</div>
+  return <div className="calendary">soy una imagen de fondo</div>
 }
 
 export default ConsultationPage

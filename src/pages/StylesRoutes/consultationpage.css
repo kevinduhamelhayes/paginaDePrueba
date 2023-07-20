@@ -1,0 +1,10 @@
+.calendary{
+  display: flex;
+  height: 45vw;
+  width: 100vw;
+  margin-top: 50px;
+  background-image: url(/public/about.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: white;
+}

@@ -1,0 +1,49 @@
+
+.home-main-container{
+  width: 100vw;
+  height: 80vh;
+  margin-top: 80px;
+  background-image: url(/public/bg-ppal.svg);
+  color: white;
+}
+.hero-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  gap: 30px;
+  height: 100%;
+  font-size: 24px;
+}
+.hero-text{
+  display : flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.hero-title{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 700;
+
+}
+.hero-description{
+  font-family: 'Times New Roman', Times, serif;
+  width: 90%;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.hero-button{
+
+  width: 50%;
+  height: 50px;
+  background-color: #F9D342;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 50px;
+}

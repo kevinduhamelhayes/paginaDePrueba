@@ -1,5 +1,6 @@
-import "./StylesRoutes/Link2.css"
-export default function Link2({ theme }) {
+import "./styles/Footer.css"
+
+export default function Footer({ theme }) {
   return (
     <nav className="footer">
       <div className="footer-content">

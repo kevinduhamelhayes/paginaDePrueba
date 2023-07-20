@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Navbar from "./Components/Navbar"
-import Footer from "./Components/Footer"
-import Link2 from "./Routes/Link2"
-import Link1 from "./Routes/Link1"
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
+import ConsultationPage from "./pages/ConsultationPage"
+import HomePage from "./pages/HomePage"
 import "./index.css"
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
       <BrowserRouter>
         <Navbar theme={theme} handleTheme={handleTheme} />
         <Routes>
-          <Route path="/" element={<Link2 />} />
-          <Route path="/Link1" element={<Link1 />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/consults" element={<ConsultationPage />} />
         </Routes>
       </BrowserRouter>
       <Footer theme={theme} />
